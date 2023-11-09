@@ -63,6 +63,9 @@ h2 {
 .nav-ul {
     display: flex;
     flex-direction: row;
+    width: 364px;
+        height: 16px;
+        flex-shrink: 0;
 }
 
 .nav-ul li:not(:last-of-type) {
@@ -91,6 +94,7 @@ h2 {
 
 .address-ul {
     display: flex;
+    
 }
 
 .address a {
@@ -108,8 +112,6 @@ h2 {
 .address-ul li a:focus {
     color: #404BBF;
 }
-
-
 .motto {
     background-color: #2e2f42;
     height: 600px;
@@ -177,7 +179,11 @@ h2 {
     letter-spacing: 0.32px;
     width: 264px;
 }
-
+.duty {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 .team {
     background-color: #f4f4fd;
     padding: 120px 156px;
@@ -224,113 +230,12 @@ h2 {
     fill: #404BBF;
 }
 
-/* #endregion */
-/* #region portfolio */
-.portfolio {
-    padding: 120px 156px;
-}
-
-.portfolio-cards-top,
-.portfolio-cards-bottom {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-
-.portfolio-cards-top {
-    margin-bottom: 48px;
-}
-
-.portfolio-cards-top img,
-.portfolio-cards-bottom img,
-.portfolio-cards-top p,
-.portfolio-cards-bottom p {
-    margin-bottom: 32px;
-    margin-top: 0;
-}
-
-.portfolio-cards-top h3,
-.portfolio-cards-bottom h3,
-.portfolio-cards-top p,
-.portfolio-cards-bottom p {
-    margin-bottom: 8px;
-    margin-top: 0;
-    padding: 0 16px;
-    box-sizing: border-box;
-}
-
-.portfolio-cards-top h3,
-.portfolio-cards-bottom h3 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.portfolio-cards-top p,
-.portfolio-cards-bottom p {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-}
-
-.img-card {
-    position: relative;
-    width: 360px;
-    height: 300px;
-    margin-bottom: 32px;
-    overflow: hidden;
-}
-
-.img-card:hover .img-body {
-    right: 0;
-    transition: 1s;
-}
-
-.img-card:hover img {
-    left: -100%;
-    transition: 1s;
-}
-
-.img-card {
-    position: relative;
-}
-
-.img-card img {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    transition: 1s;
-}
-
-.img-body {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: -100%;
-    position: absolute;
-    background: #4D5AE5;
-    padding: 40px 32px 164px 32px;
-    box-sizing: border-box;
-    transition: 1s;
-}
-
-.img-body p {
-    color: #F4F4FD;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-}
 
 .footer-bottom {
     background: #2e2f42;
     padding: 100px 156px;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -338,7 +243,6 @@ h2 {
 
 .footer-bottom-wrapper {
     min-width: 1128px;
-    display: flex;
     justify-content: space-between;
 }
 
