@@ -64,7 +64,7 @@ h2 {
 .nav-ul {
     display: flex;
     flex-direction: row;
-    width: 364px;
+    width: 400px;
         height: 16px;
         flex-shrink: 0;
         margin-right: 50px;
@@ -233,27 +233,28 @@ h2 {
     fill: #404BBF;
 }
 .menu {
-        display: flex;
-            justify-content: center;
-            gap: 24px;
-}
-.menu ul {
-    display: flex;
+     display: flex;
     justify-content: center;
-        gap: 24px;
+    gap: 24px;
+    margin-bottom: 30px;
 }
 
+
 .portfolio {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    margin-bottom: 32px;
+display: flex;
+ justify-content: center;
+ gap: 24px;
+ flex-wrap: wrap;
 }
-.portfolio ul{
-    display: flex;
+
+.portfolio ul {
+    
+        justify-content: center;
         gap: 24px;
-        
+        display: flex;
+        flex-wrap: wrap;
 }
+
 .footer-bottom {
     background: #2e2f42;
     padding: 100px 156px;
