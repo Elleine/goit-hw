@@ -24,7 +24,11 @@ h2 {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-
+.nav-ul-li:hover,
+.nav-ul-li.active {
+    background: blue;
+    color: #fff;
+}
 
 .header {
     height: 72px;
@@ -73,9 +77,11 @@ h2 {
 .nav-ul li:not(:last-of-type) {
     margin-right: 40px;
 }
-
 .nav-ul-li {
     list-style-type: none;
+}
+.nav-ul-li-active {
+    color: #2196F3;;
 }
 
 .nav-ul-li a {
@@ -233,33 +239,75 @@ h2 {
     fill: #404BBF;
 }
 .menu {
-     display: flex;
+    display: flex;
     justify-content: center;
     gap: 40px;
     margin-bottom: 30px;
+  
+}
+.menu-button {
+    margin-top: 50px;
+    width: 125px;
+    height: 38px;
+    flex-shrink: 0;
+    padding: 16px, 32px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #F5F4FA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+.all-button {
+width: 73px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196F3;
+    padding: 16px, 32px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+.menu-button:hover,
+.menu-button:focus {
+    cursor: pointer;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 
 .portfolio {
-display: flex;
- justify-content: center;
+justify-content: center;
  gap: 30px;
  flex-wrap: wrap;
 }
 
 .portfolio ul {
-    
         justify-content: center;
         gap: 24px;
         display: flex;
         flex-wrap: wrap;
+        
+}
+.portfolio-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+
 }
 
 .footer-bottom {
     background: #2e2f42;
     padding: 100px 156px;
     box-sizing: border-box;
-    display: flex;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -295,11 +343,7 @@ display: flex;
     letter-spacing: 0.32px;
 }
 
-.footer-ul {
-    display: flex;
-    gap: 24px;
-    align-items: start;
-}
+
 
 .footer-ul svg:hover,
 .footer-ul svg:focus {
