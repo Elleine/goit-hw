@@ -51,6 +51,7 @@ h3 {
 }
 
 .header-logo-link {
+    color: #000;
     text-decoration: none;
     font-family: Raleway;
     font-size: 26px;
@@ -72,16 +73,7 @@ h3 {
         letter-spacing: 0.28px;
 }
 
-.active a {
-color: #2196F3;
 
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-}
 .nav {
     margin-left: 0;
 }
