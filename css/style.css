@@ -14,14 +14,15 @@ li {
 }
 
 h2 {
+color: #212121;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 72px;
+    font-family: Roboto;
     font-size: 36px;
+    font-style: normal;
     font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.72px;
-
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
 }
 
 h3 {
@@ -33,6 +34,7 @@ h3 {
         font-weight: 700;
         line-height: 36px;
         letter-spacing: 1.08
+    
 }
 
 
@@ -53,18 +55,25 @@ h3 {
 }
 
 .header-logo-link {
-    color: #000;
-    text-decoration: none;
+color: #000;
+    font-family: Raleway;
     font-size: 26px;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
     text-decoration: none;
     
 }
 
 .header-logo-link span {
-    color: #2196F3;
+color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
 
 .active {
@@ -78,6 +87,7 @@ color: #2196F3;
 }
 .active a {
  text-decoration: none;
+color: #2196F3;
 }
 
 .nav {
@@ -96,16 +106,13 @@ color: #2196F3;
 }
 
 .nav-ul-li {
-    list-style-type: none;
-    text-decoration: none;
-    color: #212121;
-    
-        font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: 0.28px;
+color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
 .nav-ul-li a {
@@ -115,7 +122,7 @@ color: #2196F3;
 
 .nav-ul-li a:hover,
 .nav-ul-li a:focus {
-    color: #2196F3;
+color: #2196F3;
 }
 
 .address-ul li:first-of-type {
@@ -134,19 +141,19 @@ color: #2196F3;
 }
 
 .address a {
-    display: block;
-    white-space: nowrap;
-    text-decoration: none;
+color: #757575;
+text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
     font-style: normal;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-    color: #434455;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
 .address-ul li a:hover,
 .address-ul li a:focus {
-    color: #404BBF;
+color: #2196F3;
 }
 
 .motto {
@@ -171,8 +178,10 @@ color: #FFF;
     font-style: normal;
     font-weight: 900;
     line-height: 60px;
+    /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    
 }
 
 .motto-button {
@@ -209,21 +218,26 @@ width: 216px;
 }
 
 .advantages-title {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-    width: 264px;
-    margin-bottom: 8px;
+color: #212121;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
 }
 
 .advantages-text {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
+color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
     font-weight: 400;
-    letter-spacing: 0.32px;
-    width: 264px;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.42px;
 }
 
 .duty {
@@ -249,21 +263,27 @@ width: 216px;
 }
 
 .team-photos-article h3 {
+color: #212121;
+
     text-align: center;
-    font-size: 20px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-    margin-bottom: 8px;
+    line-height: normal;
+    letter-spacing: 0.48px;
 }
 
 .team-photos-article p {
+color: #757575;
     text-align: center;
-    color: #434455;
+    font-family: Roboto;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-top: 10px;
 }
 
 .team-photos-article ul {
@@ -364,17 +384,18 @@ color: #757575;
 .footer-bottom-wrapper {
     min-width: 1128px;
     justify-content: space-between;
-    margin-bottom: 60px;
+ gap: 20px;
 }
 
 .footer-bottom-wrapper a {
+color: #FFF;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
     text-decoration: none;
-    color: #f4f4fd;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    margin-bottom: 60px;
-    margin-right: 215px;
 }
 
 .footer-bottom-address {
@@ -394,8 +415,9 @@ color: #757575;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-margin-top: 60px;
     letter-spacing: 0.42px;
+    text-decoration: none;
+    margin-bottom: 60px;
 }
 
 .footer-bottom-wrapper p {
@@ -403,7 +425,14 @@ margin-top: 60px;
 }
 
 .footer-bottom-wrapper span {
-    color: #2196F3;
+color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    text-decoration: none;
 }
 
 .footer-ul-li {
@@ -413,12 +442,12 @@ margin-top: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.42px;
 }
 
 .footer-ul {
     gap: 24px;
     align-items: start;
+ margin-top: 20px;
 }
 
 .footer-ul svg:hover,
