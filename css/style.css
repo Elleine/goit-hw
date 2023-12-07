@@ -320,7 +320,7 @@ color: var(--text-color);
     height: 38px;
     flex-shrink: 0;
     border-radius: 4px;
-    color: var(--bg-color);
+    color: #fff;
     background: var(--line-color);
     padding: 16px, 32px;
     box-sizing: border-box;
